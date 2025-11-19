@@ -30,7 +30,7 @@ pipeline {
         stage('Checkout Code') {
             steps {
                 echo "🔄 Checking out code..."
-                git branch: 'main', url: 'https://github.com/nehanreddyloka/my-node-app.git'
+                git branch: 'main', url: 'https://github.com/darshan2004s/my-node-app.git'
             }
         }
 
